@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - print a random n
  * This program will assign a random number to the variable n
  * each time it is executed. Complete the source code in order
@@ -20,7 +20,7 @@
  * if the last digit of n is less than 6 and not 0:
  * the string and is less than 6 and not 0
  *
- *Return: 0
+ * Return: 0
  */
 int main(void)
 {
