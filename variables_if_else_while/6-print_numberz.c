@@ -10,7 +10,7 @@
  * You can only use putchar twice in your code
  * All your code should be in the main function
  *
- *Return: 0
+ * Return: 0
  */
 
 int main(void)
@@ -18,9 +18,9 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-		printf("%d", i);
+		putchar(i % 10 + '0');
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
