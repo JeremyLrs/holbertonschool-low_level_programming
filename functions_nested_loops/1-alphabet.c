@@ -9,7 +9,8 @@
  *
  * Prototype: void print_alphabet(void);
  * You can only use _putchar twice in your code
- * Return (0)
+ *
+ * Return: (0)
  */
 
 void print_alphabet(void)
