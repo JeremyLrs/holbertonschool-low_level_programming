@@ -7,7 +7,7 @@
  * followed by a new line.
  * The program should return 0
  *
- * Return: o
+ * Return: 0
  */
 
 int main(void)
