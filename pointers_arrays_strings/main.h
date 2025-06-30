@@ -3,6 +3,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/** Project C - Pointers, arrays and strings */
+
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -16,8 +18,22 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
+/** Project C - More pointers, arrays and strings */
+
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
+
+/** Project C - Even more pointers, arrays and strings */
+
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+
 #endif
