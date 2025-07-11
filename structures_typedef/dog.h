@@ -1,7 +1,7 @@
+#ifndef DOG_H
+#define DOG_H
 #include <stdio.h>
 #include <stdlib.h>
-#ifndef DOG_H
-#define DOH_H
 
 /**
  * struct dog - Is struct for dog information
@@ -13,12 +13,12 @@
  * Return: void
  */
 
- struct dog
- {
-    char *name;
-    float age;
-    char *owner;
- };
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
