@@ -3,7 +3,7 @@
 /**
  * print_dog - function that prints a struct dog
  *
- * @d: it's a dog
+ * @d: is a dog
  *
  * Return: 0
  */
@@ -22,6 +22,6 @@ void print_dog(struct dog *d)
 		if (d->name != NULL)
 			printf("Owner: %s\n", d->owner);
 		else
-			printf("owner: (nil)\n");
+			printf("Owner: (nil)\n");
 	}
 }
