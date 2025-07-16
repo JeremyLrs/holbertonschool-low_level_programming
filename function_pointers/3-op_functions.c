@@ -14,7 +14,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_add - subbstraction
+ * op_sub - subbstraction
  * @a: num 1
  * @b: num 2
  *
@@ -26,7 +26,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_add - multiplication
+ * op_mul - multiplication
  * @a: num 1
  * @b: num 2
  *
@@ -38,7 +38,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_add - division
+ * op_div - division
  * @a: num 1
  * @b: num 2
  *
@@ -50,7 +50,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_add - modulo
+ * op_mod - modulo
  * @a: num 1
  * @b: num 2
  *
