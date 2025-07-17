@@ -14,12 +14,18 @@
 
 int main(int argc, char **argv)
 {
-	unsigned int num1, num2, result;
+	int num1, num2, result;
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		return (98);
+	}
+
+	if (get_op_func(argv[2]) == NULL)
+	{
+		printf("Error\n");
+		return (99);
 	}
 
 	num1 = atoi(argv[1]);
