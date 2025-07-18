@@ -2,8 +2,10 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - Returns the sum of all parameters
- * @n: Number of arguments passed to the function
+ * sum_them_all - Returns the sum
+ * of all parameters
+ * @n: Number of arguments passed
+ * to the function
  *
  * Return: The total sum of the arguments
  */
