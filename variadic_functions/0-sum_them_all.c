@@ -4,9 +4,7 @@
 
 /**
  * sum_them_all - Returns the sum
- * of all parameters
- * @n: Number of arguments passed
- * to the function
+ * @n: Number of arguments
  *
  * Return: The total sum of the arguments
  */
