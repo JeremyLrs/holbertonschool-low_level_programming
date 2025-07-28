@@ -4,6 +4,7 @@
 !*/
 !*.c
 !*.h
+!3-main.c
 !.gitignore
 !README.md
 # Specifically ignore files
