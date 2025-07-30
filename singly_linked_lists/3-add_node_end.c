@@ -7,10 +7,11 @@
  * @head: is the head of list_t
  * @str: is the information for the node.
  *
- * Return:
+ * Return: the address of the new element
+ * or NULL if it failed
  */
 
-    list_t *add_node_end(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *temp = *head;
 	list_t *new_element;

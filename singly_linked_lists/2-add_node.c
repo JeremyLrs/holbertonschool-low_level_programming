@@ -7,7 +7,7 @@
  * @head: is the head of list_t
  * @str: is the information for the node.
  *
- * Return : address of the new element,
+ * Return: address of the new element,
  * or NULL if it failed
  */
 
