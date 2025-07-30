@@ -4,8 +4,8 @@
  * add_node_end - Function that adds
  * a new node at the end of a list_t
  *
- * @head:
- * @str:
+ * @head: is the head of list_t
+ * @str: is the information for the node.
  *
  * Return:
  */
